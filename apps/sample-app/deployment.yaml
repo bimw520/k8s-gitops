@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: nginxdemos/hello:latest
+          image: nginxdemos/hello:plain-text
           imagePullPolicy: Always
           ports:
             - containerPort: 80
